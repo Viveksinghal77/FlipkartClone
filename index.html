@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart clone</title>
+    <link rel="stylesheet" href="/project main/css/style.css">
+    <link rel="stylesheet" href="/project main/css/utils.css">
+    <link rel="stylesheet" href="/project main/css/dropdown5.css">
+    <link rel="stylesheet" href="/project main/css/dropdown6.css">
+    <link rel="stylesheet" href="/project main/css/dropdown7.css">
+    <script src="https://kit.fontawesome.com/d7c24fab10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="/project main/images/flipkart-logo.png" alt="Flipcart logo">
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           <li> <a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" name="search" id="search" placeholder="Search for products, brands and more">
+            <button class="btn input-box"><i class=" fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Login
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="caretIcon"><i class="fa-solid fa-caret-up"></i></div>
+          <div class="dropdown-content">
+            <a href="#">New customer? <button class="signin-btn">Sign Up</button></a>
+            <a href="#"><i class=" iconColor fa-solid fa-circle-user"></i>My Profile</a>
+            <a href="#"><i class=" iconColor fa-solid fa-plus"></i>Flipkart Plus</a>
+            <a href="#"><i class=" iconColor fa-solid fa-file-arrow-up"></i>Orders</a>
+            <a href="#"><i class=" iconColor fa-solid fa-heart"></i>Wishlist</a>
+            <a href="#"><i class=" iconColor fa-solid fa-ticket-simple"></i>Rewards</a>
+            <a href="#"><i class=" iconColor fa-solid fa-gift"></i>Gift Card</a>
+           
+          </div>
+        </div> 
+        <div class="flex-all-center becomeSeller">
+          <a href="#">Become a Seller</a>
+        </div>
+        <div class="dropdown2">
+          <div class="becomeSeller"> <a href="#">More <i class="fa fa-caret-down"></i></a></div>
+          <div class="caretIcon2"><i class="fa-solid fa-caret-up"></i></div>
+          <div class="dropdown-content2">
+            <a href="#"><i class=" iconColor fa-solid fa-bell"></i>Notification Preferences</a>
+            <a href="#"><i class=" iconColor fa-solid fa-question"></i>24*7 Customer Support</a>
+            <a href="#"><i class="iconColor fa-solid fa-arrow-trend-up"></i>Advertise</a>
+            <a href="#"><i class="iconColor fa-solid fa-download"></i>Download App</a>
+          </div>
+        </div>
+        <div class="flex-all-center becomeSeller">
+          <a href="#">&nbsp;<i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp; Cart</a>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <div class="main-cart">
+      <div class="cart">
+        <img src="/project main/images/topOffer.jpg" alt="Offers">
+        <p><a href="#">Top Offer</a></p>
+      </div>
+      <div class="cart">
+        <img src="/project main/images/grocery.jpg" alt="grocery">
+        <p><a href="#">Grocery</a></p>
+      </div>
+      <div class="cart">
+        <img src="/project main/images/mobiles.jpg" alt="mobiles">
+        <p><a href="#">Mobiles</a></p>
+      </div>
+      <div class="cart dropdown3">
+        <img src="/project main/images/fashion.jpg" alt="fashion">
+        <p><a href="#">Fashion&nbsp;<i class="fa-solid fa-angle-down"></i></a></p>
+          <div class="caretIcon3"><i class="fa-solid fa-caret-up"></i></div>
+          <div class="dropdown-content3">
+            
+            <div class="dropdown4">
+              <a href="#">Men's Top Wear</a>
+              <div class="dropdown-content4">
+                <a href="#">MORE IN MEN'S TOP WEAR</a>
+            <a href="#"> ALL</a>
+            <a href="#">Men's T-Shirts</a>
+            <a href="#">Men's Casual Shirts</a>
+            <a href="#">Men's Formal Shirts</a>
+            <a href="#">Men's Kurtas</a>
+            <a href="#">Men's Ethnic Sets</a>
+            <a href="#">Men's Blazers</a>
+            <a href="#">Men's Raincoat</a>
+            <a href="#">Men's Windcheaters</a>
+            <a href="#">Men's Suit</a>
+            <a href="#">Men's Febrics</a>
+            </div>
+            </div>
+            <div class="dropdown4">
+            <a href="#">My Men's Bottom Wear</a>
+            <div class="dropdown-content4">
+            <a href="#"> ALL</a>
+            <a href="#">Men's Jeans</a>
+            <a href="#">Men's Trousers</a>
+            <a href="#">Men's Trackpants</a>
+            <a href="#">Men's Shorts</a>
+            <a href="#">Men's Cargos</a>
+            <a href="#">Men's Threefourths</a>
+            <a href="#">Men's Dhoti</a>
+            <a href="#">Men's Ethnic Pyjama</a>
+            <a href="#">Men's Suit</a>
+            <a href="#">Men's Febrics</a>
+            </div>
+          </div>
+          <div class="dropdown4">
+            <a href="#">Women Ethnic</a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas & Kurtis</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Ethnic Dresses</a>
+              <a href="#">Women Dress Materials</a>
+              <a href="#">Women Gowns</a>
+              <a href="#">Women Lehenga Cholis</a>
+              <a href="#">Women Leggings & Patialas</a>
+              </div>
+          </div>
+          <div class="dropdown4">
+            <a href="#">Women Western </a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Women Tops</a>
+              <a href="#">Women Dresses</a>
+              <a href="#">Women T-shirts & Polo T-shirts</a>
+              <a href="#">Women Jeans</a>
+              <a href="#">Women Nighties & Night Dresses</a>
+              <a href="#">Women Nightsuit</a>
+              <a href="#">Women Track Pants</a>
+              <a href="#">Women Trouser</a>
+              <a href="#">Women Jumpsuit</a>
+
+              </div>
+          </div>
+          <div class="dropdown4">
+            <a href="#">Watches And Accessories</a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Men & Women Watches</a>
+              <a href="#">Men & Women Sunglasses</a>
+              <a href="#">Wallets</a>
+              <a href="#">Men & Women Belts</a>
+              <a href="#">Women Fashion Jewellery</a>
+              <a href="#">Men Fashion Jewellery</a>
+              <a href="#">Precious Jewellery</a>
+              <a href="#">Precious Coins & Bars</a>
+              <a href="#">Precious Articels</a>
+              <a href="#">Frames & Contact Lenses</a>
+              <a href="#">Kids Accessories</a>
+
+              </div>
+              </div>
+              <div class="dropdown4">
+            <a href="#">Bags, Suitcases & Luggage</a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Bags & Backpacks</a>
+              <a href="#">Suitcases & Trolleys</a>
+              <a href="#">Dufflebags</a>
+              <a href="#">Rucksacks</a>
+              <a href="#">Handbags</a>
+              <a href="#">Slingbags</a>
+              <a href="#">Women's Clutches & Wallets</a>
+              <a href="#">Messenger Bags</a>
+              <a href="#">Travel Accessories</a>
+              </div>
+            </div>
+            <div class="dropdown4">
+            <a href="#">Kids</a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Girls Dresses</a>
+              <a href="#">Boys & Girls Tshirts</a>
+              <a href="#">Boys & Girls Combosets</a>
+              <a href="#">Boys & Girls Ethnic Wear</a>
+              <a href="#">Boys & Girls Jeans</a>
+              <a href="#">Boys & Girls Shorts</a>
+              <a href="#">Boys & Girls Trackpants</a>
+              <a href="#">Boys & Girls Innerwear</a>
+              <a href="#">Infant Wear</a>
+              <a href="#">Kids Slipper Flip Flops</a>
+
+              </div>
+            </div>
+            <div class="dropdown4">
+            <a href="#">Essentials</a>
+            <div class="dropdown-content4">
+              <a href="#"> ALL</a>
+              <a href="#">Men's Briefs & Trunks</a>
+              <a href="#">Men's Vests</a>
+              <a href="#">Men's Boxers</a>
+              <a href="#">Women Lingerie Sets</a>
+              <a href="#">Women Bra</a>
+              <a href="#">Women Panty</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Boys Innerwear</a>
+              </div>
+            </div>
+           
+         </div>
+      </div>
+      <div class="cart dropdownElect">
+        <img src="/project main/images/electronics.jpg" alt="electronics">
+        <p><a href="#">Electronics&nbsp;<i class="fa-solid fa-angle-down"></i></a></p>
+        <div class="caretIconElect"><i class="fa-solid fa-caret-up"></i></div>
+        <div class="dropdown-contentElect">
+          <div class="dropdownElect1">
+            <a href="#">Men's Top Wear</a>
+            <div class="dropdown-contentElect1">
+              <a href="#">MORE IN MEN'S TOP WEAR</a>
+          <a href="#"> ALL</a>
+          <a href="#">Men's T-Shirts</a>
+          <a href="#">Men's Casual Shirts</a>
+          <a href="#">Men's Formal Shirts</a>
+          <a href="#">Men's Kurtas</a>
+          <a href="#">Men's Ethnic Sets</a>
+          <a href="#">Men's Blazers</a>
+          <a href="#">Men's Raincoat</a>
+          <a href="#">Men's Windcheaters</a>
+          <a href="#">Men's Suit</a>
+          <a href="#">Men's Febrics</a>
+          </div>
+          </div>
+          <div class="dropdownElect1">
+            <a href="#">My Men's Bottom Wear</a>
+            <div class="dropdown-contentElect1">
+            <a href="#"> ALL</a>
+            <a href="#">Men's Jeans</a>
+            <a href="#">Men's Trousers</a>
+            <a href="#">Men's Trackpants</a>
+            <a href="#">Men's Shorts</a>
+            <a href="#">Men's Cargos</a>
+            <a href="#">Men's Threefourths</a>
+            <a href="#">Men's Dhoti</a>
+            <a href="#">Men's Ethnic Pyjama</a>
+            <a href="#">Men's Suit</a>
+            <a href="#">Men's Febrics</a>
+            </div>
+          </div>
+          <div class="dropdownElect1">
+            <a href="#">Women Ethnic</a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas & Kurtis</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Ethnic Dresses</a>
+              <a href="#">Women Dress Materials</a>
+              <a href="#">Women Gowns</a>
+              <a href="#">Women Lehenga Cholis</a>
+              <a href="#">Women Leggings & Patialas</a>
+              </div>
+          </div>
+          <div class="dropdownElect1">
+            <a href="#">Women Western </a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Tops</a>
+              <a href="#">Women Dresses</a>
+              <a href="#">Women T-shirts & Polo T-shirts</a>
+              <a href="#">Women Jeans</a>
+              <a href="#">Women Nighties & Night Dresses</a>
+              <a href="#">Women Nightsuit</a>
+              <a href="#">Women Track Pants</a>
+              <a href="#">Women Trouser</a>
+              <a href="#">Women Jumpsuit</a>
+
+              </div>
+          </div>
+          <div class="dropdownElect1">
+            <a href="#">Watches And Accessories</a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Men & Women Watches</a>
+              <a href="#">Men & Women Sunglasses</a>
+              <a href="#">Wallets</a>
+              <a href="#">Men & Women Belts</a>
+              <a href="#">Women Fashion Jewellery</a>
+              <a href="#">Men Fashion Jewellery</a>
+              <a href="#">Precious Jewellery</a>
+              <a href="#">Precious Coins & Bars</a>
+              <a href="#">Precious Articels</a>
+              <a href="#">Frames & Contact Lenses</a>
+              <a href="#">Kids Accessories</a>
+
+              </div>
+              </div>
+              <div class="dropdownElect1">
+            <a href="#">Bags, Suitcases & Luggage</a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Bags & Backpacks</a>
+              <a href="#">Suitcases & Trolleys</a>
+              <a href="#">Dufflebags</a>
+              <a href="#">Rucksacks</a>
+              <a href="#">Handbags</a>
+              <a href="#">Slingbags</a>
+              <a href="#">Women's Clutches & Wallets</a>
+              <a href="#">Messenger Bags</a>
+              <a href="#">Travel Accessories</a>
+              </div>
+            </div>
+            <div class="dropdownElect1">
+            <a href="#">Kids</a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Girls Dresses</a>
+              <a href="#">Boys & Girls Tshirts</a>
+              <a href="#">Boys & Girls Combosets</a>
+              <a href="#">Boys & Girls Ethnic Wear</a>
+              <a href="#">Boys & Girls Jeans</a>
+              <a href="#">Boys & Girls Shorts</a>
+              <a href="#">Boys & Girls Trackpants</a>
+              <a href="#">Boys & Girls Innerwear</a>
+              <a href="#">Infant Wear</a>
+              <a href="#">Kids Slipper Flip Flops</a>
+
+              </div>
+            </div>
+            <div class="dropdownElect1">
+            <a href="#">Essentials</a>
+            <div class="dropdown-contentElect1">
+              <a href="#"> ALL</a>
+              <a href="#">Men's Briefs & Trunks</a>
+              <a href="#">Men's Vests</a>
+              <a href="#">Men's Boxers</a>
+              <a href="#">Women Lingerie Sets</a>
+              <a href="#">Women Bra</a>
+              <a href="#">Women Panty</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Boys Innerwear</a>
+              </div>
+            </div>
+            <div class="dropdownElect1">
+              <a href="#">Winter</a>
+              <div class="dropdown-contentElect1">
+                <a href="#"> ALL</a>
+                <a href="#">Men's Jackets</a>
+                <a href="#">Men's Sweatshirts</a>
+                <a href="#">Men's Sweaters</a>
+                <a href="#">Men's Thermals</a>
+                <a href="#">Women's Jackets</a>
+                <a href="#">Women's Sweatshirts</a>
+                <a href="#">Women's Sweaters & Cardigans</a>
+                <a href="#">Women's Shrugs</a>
+                <a href="#">Kids Sweatshirts</a>
+                <a href="#">Women's Kurtas</a>
+  
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="cart dropdownHome">
+        <img src="/project main/images/home.jpg" alt="home">
+        <p><a href="#"> Home&nbsp;<i class="fa-solid fa-angle-down"></i></a></p>
+        <div class="caretIconHome"><i class="fa-solid fa-caret-up"></i></div>
+        <div class="dropdown-contentHome">
+          <div class="dropdownHome1">
+            <a href="#">Men's Top Wear</a>
+            <div class="dropdown-contentHome1">
+              <a href="#">MORE IN MEN'S TOP WEAR</a>
+          <a href="#"> ALL</a>
+          <a href="#">Men's T-Shirts</a>
+          <a href="#">Men's Casual Shirts</a>
+          <a href="#">Men's Formal Shirts</a>
+          <a href="#">Men's Kurtas</a>
+          <a href="#">Men's Ethnic Sets</a>
+          <a href="#">Men's Blazers</a>
+          <a href="#">Men's Raincoat</a>
+          <a href="#">Men's Windcheaters</a>
+          <a href="#">Men's Suit</a>
+          <a href="#">Men's Febrics</a>
+          </div>
+          </div>
+          <div class="dropdownHome1">
+            <a href="#">My Men's Bottom Wear</a>
+            <div class="dropdown-contentHome1">
+            <a href="#"> ALL</a>
+            <a href="#">Men's Jeans</a>
+            <a href="#">Men's Trousers</a>
+            <a href="#">Men's Trackpants</a>
+            <a href="#">Men's Shorts</a>
+            <a href="#">Men's Cargos</a>
+            <a href="#">Men's Threefourths</a>
+            <a href="#">Men's Dhoti</a>
+            <a href="#">Men's Ethnic Pyjama</a>
+            <a href="#">Men's Suit</a>
+            <a href="#">Men's Febrics</a>
+            </div>
+          </div>
+          <div class="dropdownHome1">
+            <a href="#">Women Ethnic</a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas & Kurtis</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Ethnic Dresses</a>
+              <a href="#">Women Dress Materials</a>
+              <a href="#">Women Gowns</a>
+              <a href="#">Women Lehenga Cholis</a>
+              <a href="#">Women Leggings & Patialas</a>
+              </div>
+          </div>
+          <div class="dropdownElect1">
+            <a href="#">Women Western </a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Tops</a>
+              <a href="#">Women Dresses</a>
+              <a href="#">Women T-shirts & Polo T-shirts</a>
+              <a href="#">Women Jeans</a>
+              <a href="#">Women Nighties & Night Dresses</a>
+              <a href="#">Women Nightsuit</a>
+              <a href="#">Women Track Pants</a>
+              <a href="#">Women Trouser</a>
+              <a href="#">Women Jumpsuit</a>
+
+              </div>
+          </div>
+          <div class="dropdownHome1">
+            <a href="#">Watches And Accessories</a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Men & Women Watches</a>
+              <a href="#">Men & Women Sunglasses</a>
+              <a href="#">Wallets</a>
+              <a href="#">Men & Women Belts</a>
+              <a href="#">Women Fashion Jewellery</a>
+              <a href="#">Men Fashion Jewellery</a>
+              <a href="#">Precious Jewellery</a>
+              <a href="#">Precious Coins & Bars</a>
+              <a href="#">Precious Articels</a>
+              <a href="#">Frames & Contact Lenses</a>
+              <a href="#">Kids Accessories</a>
+
+              </div>
+              </div>
+              <div class="dropdownHome1">
+            <a href="#">Bags, Suitcases & Luggage</a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Bags & Backpacks</a>
+              <a href="#">Suitcases & Trolleys</a>
+              <a href="#">Dufflebags</a>
+              <a href="#">Rucksacks</a>
+              <a href="#">Handbags</a>
+              <a href="#">Slingbags</a>
+              <a href="#">Women's Clutches & Wallets</a>
+              <a href="#">Messenger Bags</a>
+              <a href="#">Travel Accessories</a>
+              </div>
+            </div>
+            <div class="dropdownHome1">
+            <a href="#">Kids</a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Girls Dresses</a>
+              <a href="#">Boys & Girls Tshirts</a>
+              <a href="#">Boys & Girls Combosets</a>
+              <a href="#">Boys & Girls Ethnic Wear</a>
+              <a href="#">Boys & Girls Jeans</a>
+              <a href="#">Boys & Girls Shorts</a>
+              <a href="#">Boys & Girls Trackpants</a>
+              <a href="#">Boys & Girls Innerwear</a>
+              <a href="#">Infant Wear</a>
+              <a href="#">Kids Slipper Flip Flops</a>
+
+              </div>
+            </div>
+            <div class="dropdownHome1">
+            <a href="#">Essentials</a>
+            <div class="dropdown-contentHome1">
+              <a href="#"> ALL</a>
+              <a href="#">Men's Briefs & Trunks</a>
+              <a href="#">Men's Vests</a>
+              <a href="#">Men's Boxers</a>
+              <a href="#">Women Lingerie Sets</a>
+              <a href="#">Women Bra</a>
+              <a href="#">Women Panty</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Boys Innerwear</a>
+              </div>
+            </div>
+            <div class="dropdownHome1">
+              <a href="#">Winter</a>
+              <div class="dropdown-contentHome1">
+                <a href="#"> ALL</a>
+                <a href="#">Men's Jackets</a>
+                <a href="#">Men's Sweatshirts</a>
+                <a href="#">Men's Sweaters</a>
+                <a href="#">Men's Thermals</a>
+                <a href="#">Women's Jackets</a>
+                <a href="#">Women's Sweatshirts</a>
+                <a href="#">Women's Sweaters & Cardigans</a>
+                <a href="#">Women's Shrugs</a>
+                <a href="#">Kids Sweatshirts</a>
+                <a href="#">Women's Kurtas</a>
+  
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="cart">
+        <img src="/project main/images/Appliance.jpg" alt="Appliance">
+        <p><a href="#"> Appliances</a></p>
+      </div>
+      <div class="cart">
+        <img src="/project main/images/travel.jpg" alt="travel">
+        <p><a href="#">Travel</a></p>
+      </div>
+      <div class="cart dropdownBeauty">
+        <img src="/project main/images/beauty.jpg" alt="beauty">
+        <p><a href="#">Beauty, Toys & More&nbsp;<i class="fa-solid fa-angle-down"></i></a></p> 
+        <div class="caretIconBeauty"><i class="fa-solid fa-caret-up"></i></div>
+        <div class="dropdown-contentBeauty">
+          <div class="dropdownBeauty1">
+            <a href="#">Men's Top Wear</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#">MORE IN MEN'S TOP WEAR</a>
+          <a href="#"> ALL</a>
+          <a href="#">Men's T-Shirts</a>
+          <a href="#">Men's Casual Shirts</a>
+          <a href="#">Men's Formal Shirts</a>
+          <a href="#">Men's Kurtas</a>
+          <a href="#">Men's Ethnic Sets</a>
+          <a href="#">Men's Blazers</a>
+          <a href="#">Men's Raincoat</a>
+          <a href="#">Men's Windcheaters</a>
+          <a href="#">Men's Suit</a>
+          <a href="#">Men's Febrics</a>
+          </div>
+          </div>
+          <div class="dropdownBeauty1">
+            <a href="#">My Men's Bottom Wear</a>
+            <div class="dropdown-contentBeauty1">
+            <a href="#"> ALL</a>
+            <a href="#">Men's Jeans</a>
+            <a href="#">Men's Trousers</a>
+            <a href="#">Men's Trackpants</a>
+            <a href="#">Men's Shorts</a>
+            <a href="#">Men's Cargos</a>
+            <a href="#">Men's Threefourths</a>
+            <a href="#">Men's Dhoti</a>
+            <a href="#">Men's Ethnic Pyjama</a>
+            <a href="#">Men's Suit</a>
+            <a href="#">Men's Febrics</a>
+            </div>
+          </div>
+          <div class="dropdownBeauty1">
+            <a href="#">Women Ethnic</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas & Kurtis</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Ethnic Dresses</a>
+              <a href="#">Women Dress Materials</a>
+              <a href="#">Women Gowns</a>
+              <a href="#">Women Lehenga Cholis</a>
+              <a href="#">Women Leggings & Patialas</a>
+              </div>
+          </div>
+          <div class="dropdownBeauty1">
+            <a href="#">Women Western </a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Women Tops</a>
+              <a href="#">Women Dresses</a>
+              <a href="#">Women T-shirts & Polo T-shirts</a>
+              <a href="#">Women Jeans</a>
+              <a href="#">Women Nighties & Night Dresses</a>
+              <a href="#">Women Nightsuit</a>
+              <a href="#">Women Track Pants</a>
+              <a href="#">Women Trouser</a>
+              <a href="#">Women Jumpsuit</a>
+
+              </div>
+          </div>
+          <div class="dropdownBeauty1">
+            <a href="#">Watches And Accessories</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Men & Women Watches</a>
+              <a href="#">Men & Women Sunglasses</a>
+              <a href="#">Wallets</a>
+              <a href="#">Men & Women Belts</a>
+              <a href="#">Women Fashion Jewellery</a>
+              <a href="#">Men Fashion Jewellery</a>
+              <a href="#">Precious Jewellery</a>
+              <a href="#">Precious Coins & Bars</a>
+              <a href="#">Precious Articels</a>
+              <a href="#">Frames & Contact Lenses</a>
+              <a href="#">Kids Accessories</a>
+
+              </div>
+              </div>
+              <div class="dropdownBeauty1">
+            <a href="#">Bags, Suitcases & Luggage</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Bags & Backpacks</a>
+              <a href="#">Suitcases & Trolleys</a>
+              <a href="#">Dufflebags</a>
+              <a href="#">Rucksacks</a>
+              <a href="#">Handbags</a>
+              <a href="#">Slingbags</a>
+              <a href="#">Women's Clutches & Wallets</a>
+              <a href="#">Messenger Bags</a>
+              <a href="#">Travel Accessories</a>
+              </div>
+            </div>
+            <div class="dropdownBeauty1">
+            <a href="#">Kids</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Girls Dresses</a>
+              <a href="#">Boys & Girls Tshirts</a>
+              <a href="#">Boys & Girls Combosets</a>
+              <a href="#">Boys & Girls Ethnic Wear</a>
+              <a href="#">Boys & Girls Jeans</a>
+              <a href="#">Boys & Girls Shorts</a>
+              <a href="#">Boys & Girls Trackpants</a>
+              <a href="#">Boys & Girls Innerwear</a>
+              <a href="#">Infant Wear</a>
+              <a href="#">Kids Slipper Flip Flops</a>
+
+              </div>
+            </div>
+            <div class="dropdownBeauty1">
+            <a href="#">Essentials</a>
+            <div class="dropdown-contentBeauty1">
+              <a href="#"> ALL</a>
+              <a href="#">Men's Briefs & Trunks</a>
+              <a href="#">Men's Vests</a>
+              <a href="#">Men's Boxers</a>
+              <a href="#">Women Lingerie Sets</a>
+              <a href="#">Women Bra</a>
+              <a href="#">Women Panty</a>
+              <a href="#">Women Sarees</a>
+              <a href="#">Women Kurtas</a>
+              <a href="#">Women Kurta Sets & Salwar Suits</a>
+              <a href="#">Boys Innerwear</a>
+              </div>
+            </div>
+            <div class="dropdownBeauty1">
+              <a href="#">Winter</a>
+              <div class="dropdown-contentBeauty1">
+                <a href="#"> ALL</a>
+                <a href="#">Men's Jackets</a>
+                <a href="#">Men's Sweatshirts</a>
+                <a href="#">Men's Sweaters</a>
+                <a href="#">Men's Thermals</a>
+                <a href="#">Women's Jackets</a>
+                <a href="#">Women's Sweatshirts</a>
+                <a href="#">Women's Sweaters & Cardigans</a>
+                <a href="#">Women's Shrugs</a>
+                <a href="#">Kids Sweatshirts</a>
+                <a href="#">Women's Kurtas</a>
+  
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slides">
+          <div id="slides_1" class="slide">
+        <img src="/project main/images/sliderm1.jpg" alt="slider1">
+        <a class="slide_prev" href="#slides_4" title="Next"></a>
+        <a class="slide_next" href="#slides_2" title="Next"></a>
+      </div>
+      <div id="slides_2" class="slide">
+        <img src="/project main/images/slider2.jpg" alt="slider2">
+        <a class="slide_prev" href="#slides_1" title="Prev"></a>
+        <a class="slide_next" href="#slides_3" title="Next"></a>
+      </div>
+      <div id="slides_3" class="slide">
+        <img src="/project main/images/slider3.jpg" alt="slider3">
+        <a class="slide_prev" href="#slides_2" title="Prev"></a>
+        <a class="slide_next" href="#slides_4" title="Next"></a>
+      </div>
+      <div id="slides_4" class="slide">
+        <img src="/project main/images/slider4.jpg" alt="slider4">
+        <a class="slide_prev" href="#slides_3" title="Prev"></a>
+        <a class="slide_next" href="#slides_1" title="Prev"></a>
+      </div>
+      </div>
+      <!-- <div class="slider__nav">
+        <a class="slider__navlink" href="#slides_1"></a>
+        <a class="slider__navlink" href="#slides_2"></a>
+        <a class="slider__navlink" href="#slides_3"></a>
+        <a class="slider__navlink" href="#slides_4"></a>
+      </div> -->
+      </div>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="shopping-cart">
+      <div class="cart-header">
+        <div class="cart-heading">
+        <h1>Best of Electronics</h1>
+        <h5>Best of Electronics</h5>
+      </div>
+        <div class="cart-header-btn">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="cart-main-content">
+        <div class="items">
+          <img src="/project main/images/e1.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">HP, Asus, Dell & More</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e2.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">BenQ Moniters</a> 
+            <a href="#fromi" class="green">From $6000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e3.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">12th Gen Laptops</a> 
+            <a href="#fromi" class="green">From $47000</a> 
+            <a href="#fromi" class="light">High Performance Laptops</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e4.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters"> Thin And Light Laptops</a> 
+            <a href="#fromi" class="green">From $18999</a> 
+            <a href="#fromi" class="light">Starting From 1000 gms</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e5.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Core i3 Laptops</a> 
+            <a href="#fromi" class="green">From $28000</a> 
+            <a href="#fromi" class="light">Windows | Performance</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e6.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">Premium Laptops</a> 
+            <a href="#fromi" class="green">From $45990</a> 
+            <a href="#fromi" class="light">HP Pavillion | Asus Oled</a>
+          </div>
+           </div>
+        </div>
+        <div class="items">
+          <img src="/project main/images/e7.jpg" alt="tel">
+          <div class="items-header">
+            <div class="header-column">
+            <a href="#moniters">ViewSonic Moniters</a> 
+            <a href="#fromi" class="green">From $8000</a> 
+            <a href="#fromi" class="light">Top Reated</a>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+    </div>
+  </main>
+  <footer>
+   <div class="footer-container">
+    <div class="footer-upper">
+      <div class="footer-upper-left-item">
+        <p>ABOUT</p>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Flipcart Stories</a>
+        <a href="#">Press</a>
+        <a href="#">Flipcart</a>
+        <a href="#">Wholesale</a>
+        <a href="#">Corporate</a>
+        <a href="#">Information</a>
+
+      </div>
+      <div class="footer-upper-left-item">
+        <p>HELP</p>
+        <a href="#">Payments</a>
+        <a href="#">Shipping</a>
+        <a href="#">Cancellation &</a>
+        <a href="#">Returns</a>
+        <a href="#">FAQ</a>
+        <a href="#">Report</a>
+        <a href="#">Infringement</a>
+      </div>
+      <div class="footer-upper-left-item">
+        <p>POLOCY</p>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Security</a>
+        <a href="#">Privacy</a>
+        <a href="#">Sitemap</a>
+        <a href="#">EPR Compliance</a>
+        
+      </div>
+      <div class="footer-upper-left-item">
+        <p>SOCIAL</p>
+        <a href="#">Fecebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+        
+      </div>
+      <div class="footer-upper-right-item borderLeft">
+        <p>Mail Us:</p>
+        <address>
+          Flipkart Internet Private Limited, <br>
+          Building Alyssa, Begonia & <br>
+          Clove Embassy Tech Village,<br>
+          Outer Ring Road, Devarabeesanahalli village, <br>
+          Bengaluru, 560103, <br>
+          Karnataka, India <br>
+        </address>
+      </div>
+      <div class="footer-upper-right-item">
+        <p>Registered Office Address:</p>
+        <address>
+          Flipkart Internet Private Limited, <br>
+          Building Alyssa, Begonia & <br>
+          Clove Embassy Tech Village,<br>
+          Outer Ring Road, Devarabeesanahalli village, <br>
+          Bengaluru, 560103, <br>
+          Karnataka, India <br>
+          CIN: U51109KA2012PTC066107 <br>
+         <span> Telephone:<p style="color: blue;">044-45614700</p></span>
+        </address>
+      </div>
+
+    </div>
+    <div class="footer-down">
+      <div class="footer-down-item">
+        <a href="#"><i class="golden fa-solid fa-briefcase"></i> &nbsp; Become a Seller</a>
+        <a href="#"><i class="golden fa-solid fa-circle-dot"></i> &nbsp; Advertise</a>
+        <a href="#"><i class="golden fa-solid fa-gift"></i> &nbsp;Gift Cards</a>
+        <a href="#"><i class="golden fa-solid fa-circle-question"></i>&nbsp; Help Center</a>
+        <p>&copy; 2022 VivekSinghal World.com</p>
+        <a href="#"><img src="/project main/images/payment-method.svg" alt="payment"></a>
+
+      </div>
+    </div>
+   </div>
+    
+  </footer>  
+</body>
+</html>
